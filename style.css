@@ -1,0 +1,460 @@
+body {
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    margin:auto;
+    
+  }
+  .maincon h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    letter-spacing: 1px;   
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #ed1c24;
+    text-transform: uppercase;
+  
+  
+  }
+  
+#navbar{
+    color:white;
+    text-align: right;
+    margin-right: 85px;
+    margin-top: -30px;
+}
+#navbar ul{
+    padding: 0%;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+.showcase-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+  }
+
+.left-text {
+    flex: 1;
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+  }
+  .highlight{
+    color: #ed1c24;
+  }
+  
+
+ 
+  .section-top{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("slider3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 10s infinite ease-in-out;
+  }
+  @keyframes change{
+    0%
+    {
+      background-image: url(slider3.webp);
+    }
+    25%
+    {
+      background-image: url(slider2.jpg);
+    }
+    50%
+    {
+      background-image: url(slider11.jpg);
+    }
+    100%
+    {
+      background-image: url(kool.jpeg);
+    }
+  }
+  
+  .showcase-image {
+    margin-top: 30px;
+    height: 400px;
+    width: 600px;
+    animation: slider 10s linear infinite;
+    background-size: cover;
+    border-radius: 1rem;
+    
+  }
+
+
+  .bg {
+    background-color: white; 
+    margin-top: -100px;
+  }
+
+  .bg h1{
+    position: relative;
+    text-align: left;
+    margin-left: 300px;
+    padding-top: 80px;
+    color: black;
+
+  }
+  .bold{
+    color: #ed1c24;
+  }
+  .content{
+    margin-top: 40px;
+  }
+  .timeline {
+    position: relative;
+    margin: 30px auto;
+    padding: 10px 0;
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+  }
+  
+  /* The vertical line */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    width: 2px;
+    background-color: black;
+    transform: translateX(-50%);
+  }
+  
+  /* Each step */
+  .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 100px 0;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  /* Positioning for left/right steps */
+  .step-left {
+    flex-direction: row;
+    text-align: right;
+    font-size: 25px;
+  }
+  
+  .step-right {
+    flex-direction: row-reverse;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  /* Step label (center pill) */
+  .step-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 40px;
+    z-index: 1;
+    font-size: 30px;
+    white-space: nowrap;
+  }
+  
+  /* Timeline images */
+  .timeline-image1 {
+    width: 400px;           /* Increase as needed */
+    height: 400px;          /* Add "px" unit! */
+    object-fit: contain;    /* Keeps image nicely scaled */
+    display: block;
+    margin: 40px auto 0;
+    padding-left: 200px;
+  }
+.step .timeline-image{
+  text-align: center;
+}
+.timeline-image2 {
+  width: 350px;           /* Increase as needed */
+  height: 350px;          /* Add "px" unit! */
+  object-fit: contain;    /* Keeps image nicely scaled */
+  display: block;
+  margin: 40px auto 0;
+  padding-right: 200px;
+}
+.timeline-image3 {
+  width: 350px;              /* Resize image */
+  height: auto;              /* Maintain aspect ratio */
+  object-fit: contain;
+  display: block;
+  margin-left: 10px;         /* Adds horizontal spacing from text */
+}
+
+.righttext h2{
+  margin-bottom: 20px;
+  padding-left: 215px; /* You can increase this value if needed */
+}
+
+.boldd{
+  color: #ed1c24;
+}
+
+.step-subtext {
+  display: block;
+  font-size: 25px;        /* Smaller size */
+  font-weight: normal;
+  margin-top: -35px;        /* Space between heading and subtext */
+  color:black;         /* Optional: softer white or gray */
+}
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* aligns right for left steps */
+  max-width: 400px;
+}
+  
+
+.black{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.black1{
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  color: white;
+}
+.ok{
+  color: #ed1c24;
+}
+.ok1{
+  color: #ed1c24;
+}
+.loc h1{
+  text-align: center;
+}
+.loc1{
+  color: #ed1c24;
+}
+
+.locs{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+.locs ul{
+  display: flex;
+  gap: 50px;
+}
+
+
+section{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    color:black;
+    text-align: left;
+
+}
+.b1{
+  color: #ed1c24;
+}
+.box{
+  padding-left: 50px;
+  max-width: 600px;
+}
+.box h1{
+  padding-left: 100px;
+  font-size: 60px;
+}
+.box p{
+  font-size: 20px;
+}
+
+iframe{
+    
+    border-radius: 1em;
+    border: none;
+    width: 600px;
+    height:600px;
+    transition:0.3s ease-in-out;
+}
+iframe:hover{
+    transform: scale(1.1);
+}
+
+.timeline-image3{
+  mix-blend-mode:darken;
+}
+
+.our{
+  color: black;
+}
+
+
+
+.ranges-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ranges-container h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 30px;
+    font-size: 2rem;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.ok {
+    text-align: center; 
+    margin: 0 auto;     
+  }
+
+  .container-app{
+    text-align: center;
+    
+  }
+  .app{
+    color: #ed1c24;
+  }
+  .container-app h3{
+    font-size: 1em;
+    padding-top: 200px;
+  }
+  .container-app h1{
+    font-size: 3em;
+  }
+
+  .phones{
+    padding-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    z-index: 1;
+    align-items: center;
+  }
+  .app-promo{
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+  }
+  .app-promo-bg{
+    position: absolute;
+    top: 45%;
+    transform:translateY(-50%,-50%);
+    height:200px;
+    background-color: black;
+    width: 100vw;
+    z-index: 0;
+  }
+  .google-button{
+    text-align: center;
+    justify-content: center;
+  }
+  .google-button img{
+    width: 250px;
+    height: auto;
+  }
+  
+#sf{
+  background-color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: capitalize;
+}
+#sf h1{
+  position: relative;
+  color: white;
+  text-decoration: wavy;
+  text-align: start center;
+  background-color: black;
+  padding-bottom: -200px;
+}
+
+#sf{
+  background-color: black;
+  height: 75px;
+}
+#main-footer{
+  background-color: #ed1c24;
+  
+}
+#mf{
+  background-color: #ed1c24;
+  height: 500px;
+  color: white;
+}
+#main-footer{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+}
+#main-footer ul{
+  text-decoration: none;
+  align-items: flex-start;
+}
+#main-footer li{
+  list-style: none;
+}
+#main-footer a{
+  color: white;
+  text-decoration: none;
+}
+#main-footer p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.brands{
+  text-align: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+
