@@ -62,7 +62,7 @@ body {
     height:100%;
     overflow: hidden;
     position: relative;
-    background-image: url("slider.jpg");
+    background-image: url(Pic1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ body {
   @keyframes change{
     0%
     {
-      background-image: url(slider.jpg);
+      background-image: url(Pic1.jpg);
     }
     25%
     {
