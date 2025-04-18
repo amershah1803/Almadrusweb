@@ -150,7 +150,7 @@ body {
     width: 100%;
   }
   
-  /* Positioning for left/right steps */
+/*   step left */
   .step-left {
     flex-direction: row;
     text-align: right;
@@ -163,7 +163,7 @@ body {
     font-size: 25px;
   }
   
-  /* Step label (center pill) */
+  /* Step label  */
   .step-label {
     position: absolute;
     left: 50%;
@@ -180,9 +180,9 @@ body {
   
   /* Timeline images */
   .timeline-image1 {
-    width: 400px;           /* Increase as needed */
-    height: 400px;          /* Add "px" unit! */
-    object-fit: contain;    /* Keeps image nicely scaled */
+    width: 400px;           
+    height: 400px;          
+    object-fit: contain;    
     display: block;
     margin: 40px auto 0;
     padding-left: 200px;
@@ -191,24 +191,24 @@ body {
   text-align: center;
 }
 .timeline-image2 {
-  width: 350px;           /* Increase as needed */
-  height: 350px;          /* Add "px" unit! */
-  object-fit: contain;    /* Keeps image nicely scaled */
+  width: 350px;           
+  height: 350px;          
+  object-fit: contain;    
   display: block;
   margin: 40px auto 0;
   padding-right: 200px;
 }
 .timeline-image3 {
-  width: 350px;              /* Resize image */
-  height: auto;              /* Maintain aspect ratio */
+  width: 350px;              
+  height: auto;              
   object-fit: contain;
   display: block;
-  margin-left: 10px;         /* Adds horizontal spacing from text */
+  margin-left: 10px;         
 }
 
 .righttext h2{
   margin-bottom: 20px;
-  padding-left: 215px; /* You can increase this value if needed */
+  padding-left: 215px; 
 }
 
 .boldd{
@@ -217,15 +217,15 @@ body {
 
 .step-subtext {
   display: block;
-  font-size: 25px;        /* Smaller size */
+  font-size: 25px;        
   font-weight: normal;
-  margin-top: -35px;        /* Space between heading and subtext */
-  color:black;         /* Optional: softer white or gray */
+  margin-top: -35px;        
+  color:black;         
 }
 .text-block {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* aligns right for left steps */
+  align-items: flex-start; 
   max-width: 400px;
 }
   
